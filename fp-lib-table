@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name MX_Only)(type KiCad)(uri ${KIPRJMOD}/MX_Alps_Hybrid/MX_Only.pretty)(options "")(descr ""))
+  (lib (name 2199230-3)(type KiCad)(uri ${KIPRJMOD}/2199230-3)(options "")(descr ""))
+  (lib (name ul_SI2301CDST1GE3)(type KiCad)(uri ${KIPRJMOD}/ul_SI2301CDST1GE3)(options "")(descr ""))
+  (lib (name PTS525SM15SMTR2LFS)(type KiCad)(uri ${KIPRJMOD}/PTS525SM15SMTR2LFS)(options "")(descr ""))
+)
