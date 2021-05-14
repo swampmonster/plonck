@@ -1625,7 +1625,7 @@ Wire Notes Line
 Text Notes 8950 650  0    50   ~ 0
 ESD protection
 $Comp
-L Connector_Generic:SWD J2
+L plonck-rescue:SWD-Connector_Generic J2
 U 1 1 60775440
 P 1275 5600
 F 0 "J2" H 1225 5600 50  0000 L CNN
@@ -1703,7 +1703,7 @@ $EndComp
 Wire Notes Line
 	8900 2475 8900 675 
 $Comp
-L Connector_Generic:Battery_connector J1
+L plonck-rescue:Battery_connector-Connector_Generic J1
 U 1 1 605544B8
 P 7875 3450
 F 0 "J1" H 7875 3425 50  0000 L CNN
@@ -2362,7 +2362,7 @@ F 5 "C23179" H 9575 3300 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:SS14 D49
+L plonck-rescue:SS14-Diode D49
 U 1 1 60833B5C
 P 7575 5500
 F 0 "D49" V 7621 5320 50  0000 R CNN
@@ -2376,7 +2376,7 @@ $EndComp
 Wire Notes Line
 	675  6425 675  7675
 $Comp
-L Battery_Management:TP4054-42-SOT25-R U2
+L plonck-rescue:TP4054-42-SOT25-R-Battery_Management U2
 U 1 1 608A020D
 P 9050 3625
 F 0 "U2" H 9050 4056 50  0000 C CNN

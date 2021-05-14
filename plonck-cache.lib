@@ -1,38 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Battery_Management_TP4054-42-SOT25-R
-#
-DEF Battery_Management_TP4054-42-SOT25-R U 0 40 Y Y 1 F N
-F0 "U" -250 200 50 H V C CNN
-F1 "Battery_Management_TP4054-42-SOT25-R" 0 -850 50 H V C CNN
-F2 "Package_TO_SOT_SMD:TSOT-23-5" 50 -1050 50 H I C CNN
-F3 "" -100 100 50 H I C CNN
-F4 "C32574" 0 -950 50 H I C CNN "LCSC"
-DRAW
-S -300 150 300 -250 1 1 10 f
-X CHRG 1 400 -150 100 L 50 50 1 1 O
-X GND 2 0 -350 100 U 50 50 1 1 W
-X VBAT 3 400 50 100 L 50 50 1 1 w
-X VCC 4 0 250 100 D 50 50 1 1 W
-X PROG 5 -400 -150 100 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Connector_Generic_Battery_connector
-#
-DEF Connector_Generic_Battery_connector J 0 40 Y Y 1 F N
-F0 "J" 50 -50 50 H V C CNN
-F1 "Connector_Generic_Battery_connector" 100 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S 0 -150 250 -450 0 1 0 N
-X BAT+ 1 -100 -250 100 R 50 50 0 0 W
-X BAT- 2 -100 -350 100 R 50 50 0 0 W
-ENDDRAW
-ENDDEF
-#
 # Connector_Generic_Conn_01x02
 #
 DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
@@ -49,23 +17,6 @@ S -50 5 0 -5 1 1 6 N
 S -50 50 50 -150 1 1 10 f
 X Pin_1 1 -200 0 150 R 50 50 1 1 P
 X Pin_2 2 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Generic_SWD
-#
-DEF Connector_Generic_SWD J 0 40 Y Y 1 F N
-F0 "J" -50 50 50 H V C CNN
-F1 "Connector_Generic_SWD" 0 -50 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S 0 -150 50 -650 0 1 0 N
-X GND 1 -150 -200 150 R 50 50 1 1 w
-X SWDIO 2 -150 -300 150 R 50 50 1 1 B
-X SWCLK 3 -150 -400 150 R 50 50 1 1 B
-X RESET 4 -150 -500 150 R 50 50 1 1 B
-X +3.3V 5 -150 -600 150 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
@@ -169,22 +120,6 @@ P 2 0 1 0 50 0 -50 0 N
 P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Diode_SS14
-#
-DEF Diode_SS14 D 0 40 N N 1 F N
-F0 "D" 0 0 50 H V C CNN
-F1 "Diode_SS14" 0 -200 50 H V C CNN
-F2 "Diode_SMD:D_SOD-123" 0 -300 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 1 0 50 -100 -50 -100 N
-P 4 1 1 10 50 -50 50 -150 -50 -100 50 -50 N
-P 6 1 1 10 -75 -75 -75 -50 -50 -50 -50 -150 -25 -150 -25 -125 N
-X ~ 1 -150 -100 100 R 50 50 1 1 P
-X ~ 2 150 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -380,6 +315,71 @@ X P0.03 6 -700 -250 100 R 50 50 1 1 B
 X P0.02 7 -700 -350 100 R 50 50 1 1 B
 X P0.28 8 -700 -450 100 R 50 50 1 1 B
 X P0.29 9 -700 -550 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# plonck-rescue_Battery_connector-Connector_Generic
+#
+DEF plonck-rescue_Battery_connector-Connector_Generic J 0 40 Y Y 1 F N
+F0 "J" 50 -50 50 H V C CNN
+F1 "plonck-rescue_Battery_connector-Connector_Generic" 100 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 0 -150 250 -450 0 1 0 N
+X BAT+ 1 -100 -250 100 R 50 50 0 0 W
+X BAT- 2 -100 -350 100 R 50 50 0 0 W
+ENDDRAW
+ENDDEF
+#
+# plonck-rescue_SS14-Diode
+#
+DEF plonck-rescue_SS14-Diode D 0 40 N N 1 F N
+F0 "D" 0 0 50 H V C CNN
+F1 "plonck-rescue_SS14-Diode" 0 -200 50 H V C CNN
+F2 "Diode_SMD:D_SOD-123" 0 -300 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 1 0 50 -100 -50 -100 N
+P 4 1 1 10 50 -50 50 -150 -50 -100 50 -50 N
+P 6 1 1 10 -75 -75 -75 -50 -50 -50 -50 -150 -25 -150 -25 -125 N
+X ~ 1 -150 -100 100 R 50 50 1 1 P
+X ~ 2 150 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# plonck-rescue_SWD-Connector_Generic
+#
+DEF plonck-rescue_SWD-Connector_Generic J 0 40 Y Y 1 F N
+F0 "J" -50 50 50 H V C CNN
+F1 "plonck-rescue_SWD-Connector_Generic" 0 -50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 0 -150 50 -650 0 1 0 N
+X GND 1 -150 -200 150 R 50 50 1 1 w
+X SWDIO 2 -150 -300 150 R 50 50 1 1 B
+X SWCLK 3 -150 -400 150 R 50 50 1 1 B
+X RESET 4 -150 -500 150 R 50 50 1 1 B
+X +3.3V 5 -150 -600 150 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# plonck-rescue_TP4054-42-SOT25-R-Battery_Management
+#
+DEF plonck-rescue_TP4054-42-SOT25-R-Battery_Management U 0 40 Y Y 1 F N
+F0 "U" -250 200 50 H V C CNN
+F1 "plonck-rescue_TP4054-42-SOT25-R-Battery_Management" 0 -850 50 H V C CNN
+F2 "Package_TO_SOT_SMD:TSOT-23-5" 50 -1050 50 H I C CNN
+F3 "" -100 100 50 H I C CNN
+F4 "C32574" 0 -950 50 H I C CNN "LCSC"
+DRAW
+S -300 150 300 -250 1 1 10 f
+X CHRG 1 400 -150 100 L 50 50 1 1 O
+X GND 2 0 -350 100 U 50 50 1 1 W
+X VBAT 3 400 50 100 L 50 50 1 1 w
+X VCC 4 0 250 100 D 50 50 1 1 W
+X PROG 5 -400 -150 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

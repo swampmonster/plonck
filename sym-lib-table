@@ -4,4 +4,5 @@
   (lib (name kicad-keyboard-parts)(type Legacy)(uri "${KIPRJMOD}/kicad-keyboard-parts.pretty/Schematic Library/kicad-keyboard-parts.lib")(options "")(descr ""))
   (lib (name 2021-04-14_10-34-29)(type Legacy)(uri ${KIPRJMOD}/ul_SI2301CDST1GE3/2021-04-14_10-34-29/2021-04-14_10-34-29.lib)(options "")(descr ""))
   (lib (name PTS525SM15SMTR2LFS)(type Legacy)(uri ${KIPRJMOD}/PTS525SM15SMTR2LFS/PTS525SM15SMTR2LFS.lib)(options "")(descr ""))
+  (lib (name plonck-rescue)(type Legacy)(uri ${KIPRJMOD}/plonck-rescue.lib)(options "")(descr ""))
 )
