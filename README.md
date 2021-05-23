@@ -1,12 +1,13 @@
 # plonck
 
-An attempt at making a planck-compatible pcb with bluetooth
+An attempt at making a planck-compatible pcb with bluetooth  
 ![PCB Render](images/pcb-render.png)
 
 ## Current status:
-This is very much a work in progress, no pcb's have yet to be manufactured.  
-The pcb may or may not even fit in standard planck cases so having one made is discouraged until  
-i've actually had some made for myself.
+### Rev A0 (NOT RECOMMENDED FOR PRODUCTION, READ STATUS)
+I've received and built this version and it works fine but i made the mistake of wiring up the GND and VBUS pins on the ESD chip incorrectly.  
+Thankfully those are the middle pins and simply desoldering and turning the chip around solves the problem.  
+If you are looking to get boards made from this revision you need to be aware of this but my recommendation would be to wait for the next one.
 
 ## License
 The project is licensed under [CERN-OHL-S](LICENSE) (see [LICENSE](LICENSE) file) with the exceptions of:
@@ -16,4 +17,4 @@ The project is licensed under [CERN-OHL-S](LICENSE) (see [LICENSE](LICENSE) file
 - The [ul_SI2301CDST1GE3](ul_SI2301CDST1GE3) directory which is licensed under the terms provided in the Terms and Conditions on [Ultra Librarian](https://www.ultralibrarian.com/)
 
 ## Thanks
-Huge shoutout to 4pplet for tons of advice and help.
+Huge shoutout to [4pplet](https://github.com/4pplet) for tons of advice and help.
