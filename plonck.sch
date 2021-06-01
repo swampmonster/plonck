@@ -1962,7 +1962,6 @@ $EndComp
 Text GLabel 4925 6175 0    50   Input ~ 0
 Col3
 NoConn ~ 4925 6275
-NoConn ~ 4925 6075
 NoConn ~ 4925 5975
 NoConn ~ 4925 5875
 NoConn ~ 4925 5775
@@ -2523,4 +2522,67 @@ F 4 "C2286" H 9575 3400 50  0001 C CNN "LCSC"
 $EndComp
 Wire Wire Line
 	9575 3300 9575 3250
+$Comp
+L power:+BATT #PWR0101
+U 1 1 60C1F4E5
+P 3550 6425
+F 0 "#PWR0101" H 3550 6275 50  0001 C CNN
+F 1 "+BATT" H 3565 6598 50  0000 C CNN
+F 2 "" H 3550 6425 50  0001 C CNN
+F 3 "" H 3550 6425 50  0001 C CNN
+	1    3550 6425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 60C2226C
+P 3700 6525
+F 0 "R7" H 3759 6571 50  0000 L CNN
+F 1 "806k" H 3759 6480 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3700 6525 50  0001 C CNN
+F 3 "~" H 3700 6525 50  0001 C CNN
+	1    3700 6525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 60C23717
+P 3700 6725
+F 0 "R8" H 3759 6771 50  0000 L CNN
+F 1 "2M" H 3759 6680 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3700 6725 50  0001 C CNN
+F 3 "~" H 3700 6725 50  0001 C CNN
+	1    3700 6725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 60C25DD1
+P 3700 6825
+F 0 "#PWR0102" H 3700 6575 50  0001 C CNN
+F 1 "GND" H 3705 6652 50  0000 C CNN
+F 2 "" H 3700 6825 50  0001 C CNN
+F 3 "" H 3700 6825 50  0001 C CNN
+	1    3700 6825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 6425 3700 6425
+Wire Wire Line
+	3700 6625 3950 6625
+Connection ~ 3700 6625
+Text GLabel 3950 6625 2    50   Input ~ 0
+VSENSE
+Wire Notes Line
+	3425 6200 3425 7050
+Wire Notes Line
+	3425 7050 4300 7050
+Wire Notes Line
+	4300 7050 4300 6200
+Wire Notes Line
+	4300 6200 3425 6200
+Text Notes 3425 6175 0    50   ~ 0
+Battery voltage divider
+Text GLabel 4925 6075 0    50   Input ~ 0
+VSENSE
 $EndSCHEMATC
