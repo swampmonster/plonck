@@ -7,6 +7,7 @@ An attempt at making a planck-compatible pcb with bluetooth
 ### Rev A0 (NOT RECOMMENDED FOR PRODUCTION, READ STATUS)
 I've received and built this version and it works fine but i made the mistake of wiring up the GND and VBUS pins on the ESD chip incorrectly.  
 Thankfully those are the middle pins and simply desoldering and turning the chip around solves the problem.  
+Update: Finally had time to test the load sharing circuitry and i had the pinout of the mosfet setup incorrectly which requires bodge wires to fix.  
 If you are looking to get boards made from this revision you need to be aware of this but my recommendation would be to wait for the next one.
 
 ## License
