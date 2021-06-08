@@ -5,4 +5,5 @@
   (lib (name 2021-04-14_10-34-29)(type Legacy)(uri ${KIPRJMOD}/ul_SI2301CDST1GE3/2021-04-14_10-34-29/2021-04-14_10-34-29.lib)(options "")(descr ""))
   (lib (name PTS525SM15SMTR2LFS)(type Legacy)(uri ${KIPRJMOD}/PTS525SM15SMTR2LFS/PTS525SM15SMTR2LFS.lib)(options "")(descr ""))
   (lib (name plonck-rescue)(type Legacy)(uri ${KIPRJMOD}/plonck-rescue.lib)(options "")(descr ""))
+  (lib (name SM02B-SRSS-TB_LF__SN_)(type Legacy)(uri ${KIPRJMOD}/SM02B-SRSS-TB_LF__SN_/SM02B-SRSS-TB_LF__SN_.lib)(options "")(descr ""))
 )
