@@ -6,8 +6,8 @@
 
   (title_block
     (title "plonck bluetooth pcb")
-    (date "2021-04-14")
-    (rev "A0")
+    (date "2021-06-21")
+    (rev "B0")
     (company "by swampmonster")
     (comment 3 "Licensed under CERN-OHL-S")
     (comment 4 "Planck-compatible bluetooth pcb")
