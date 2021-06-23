@@ -1659,7 +1659,6 @@
     )
   )
 
-
   (junction (at 24.765 43.815) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 24.765 63.5) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 24.765 83.185) (diameter 0.9144) (color 0 0 0 0))
@@ -6342,7 +6341,7 @@
     (in_bom yes) (on_board yes)
     (uuid c6b48aca-e6ec-415b-bd56-226c73d7f498)
     (property "Reference" "J1" (id 0) (at 185.547 19.05 0))
-    (property "Value" "USB_C_Receptacle_USB2.0" (id 1) (at 196.977 21.59 0))
+    (property "Value" "TYPE-C-31-M-12" (id 1) (at 196.977 21.59 0))
     (property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (id 2) (at 198.12 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -6736,7 +6735,7 @@
       (reference "H6") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5_Pad_TopBottom")
     )
     (path "/c6b48aca-e6ec-415b-bd56-226c73d7f498"
-      (reference "J1") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
+      (reference "J1") (unit 1) (value "TYPE-C-31-M-12") (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
     )
     (path "/00000000-0000-0000-0000-0000605544b8"
       (reference "J2") (unit 1) (value "Battery_connector") (footprint "SM02B-SRSS-TB_LF__SN_:SM02B-SRSS-TB(LF)(SN)")
