@@ -10,6 +10,15 @@ Thankfully those are the middle pins and simply desoldering and turning the chip
 Update: Finally had time to test the load sharing circuitry and i had the pinout of the mosfet setup incorrectly which requires bodge wires to fix.  
 If you are looking to get boards made from this revision you need to be aware of this but my recommendation would be to wait for the next one.
 
+
+## Rev B0
+This should address all the issues in A0 while also adding some features that were not previously present such as:  
+- Leds for charge and bootloader status.
+- Voltage divider for charge monitoring.
+- SMD USB port so it can be mounted by JLC.
+
+Boards have been ordered but not yet received so production is still not recommended.
+
 ## License
 The project is licensed under [CERN-OHL-S](LICENSE) (see [LICENSE](LICENSE) file) with the exceptions of:
 - The [MX_Alps_Hybrid](MX_Alps_Hybrid) directory which is licensed under the [MIT License](https://opensource.org/licenses/MIT) and is made by [ai03](https://github.com/ai03-2725/MX_Alps_Hybrid).
